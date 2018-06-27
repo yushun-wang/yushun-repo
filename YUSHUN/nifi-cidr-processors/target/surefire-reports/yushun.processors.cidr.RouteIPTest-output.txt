@@ -1,0 +1,14 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ys/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ys/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+23:49:03.339 [pool-2-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=01df0697-92d4-4f96-9d22-aba8d1520f7a] Created FlowFile[1,2767869975975.mockFlowFile,29B] from FlowFile[0,2767869975975.mockFlowFile,29B]; routing to relationship unmatched
+23:49:03.343 [pool-2-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=01df0697-92d4-4f96-9d22-aba8d1520f7a] Routing FlowFile[0,2767869975975.mockFlowFile,29B] to original
+23:49:03.348 [pool-3-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=8309b8f4-7f59-4a15-b5c9-9e67fb4e6e6b] Created FlowFile[2,2767892005043.mockFlowFile,11B] from FlowFile[0,2767892005043.mockFlowFile,24B]; routing to relationship unmatched
+23:49:03.348 [pool-3-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=8309b8f4-7f59-4a15-b5c9-9e67fb4e6e6b] Created FlowFile[1,2767892005043.mockFlowFile,13B] from FlowFile[0,2767892005043.mockFlowFile,24B]; routing to relationship matched
+23:49:03.348 [pool-3-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=8309b8f4-7f59-4a15-b5c9-9e67fb4e6e6b] Routing FlowFile[0,2767892005043.mockFlowFile,24B] to original
+23:49:03.361 [pool-4-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=daaf3ee4-daa6-4169-8ebf-fa510df31025] Created FlowFile[1,2767905640238.mockFlowFile,29B] from FlowFile[0,2767905640238.mockFlowFile,29B]; routing to relationship unmatched
+23:49:03.362 [pool-4-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=daaf3ee4-daa6-4169-8ebf-fa510df31025] Routing FlowFile[0,2767905640238.mockFlowFile,29B] to original
+23:49:03.379 [pool-5-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=319b6b95-2491-4e08-baf5-5aa75b9e5e6e] Created FlowFile[1,2767922073453.mockFlowFile,29B] from FlowFile[0,2767922073453.mockFlowFile,29B]; routing to relationship matched
+23:49:03.379 [pool-5-thread-1] INFO yushun.processors.cidr.RouteIP - RouteIP[id=319b6b95-2491-4e08-baf5-5aa75b9e5e6e] Routing FlowFile[0,2767922073453.mockFlowFile,29B] to original
