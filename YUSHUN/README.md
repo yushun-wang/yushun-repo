@@ -27,7 +27,7 @@ For example, you have following flowfile
 srcip:10.2.0.13
 srcip:10.2.1.123
 
-and you have regex "souce ip:(.*)", as well as cidr list "10.2.0.0/24", 
+and you have regex "srcip:(.*)", as well as cidr list "10.2.0.0/24", 
 then the first line will be routed to matched relationship while the second line to unmatched.
 
 Build
